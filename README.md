@@ -3,6 +3,9 @@
 ```
 from network import Model
 
+x_train = ...
+y_train = ...
+
 mlp = Model()
 mlp.add_layer(784, 200, act_fn='sigmoid')
 mlp.add_layer(200, 128, act_fn='sigmoid')
